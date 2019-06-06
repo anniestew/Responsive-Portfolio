@@ -18,16 +18,6 @@ body {
   margin: 0 auto;
   clear: both;
 }
-.bg-color {
-  background: blueviolet;
-  height: 250px;
-}
-
-@media (min-width: 768px) {
-  .bg-color {
-    width: 80%;
-  }
-}
 
 h1,
 h2,
@@ -86,13 +76,6 @@ h3 {
   text-decoration: none;
   background: #4aaaa5;
 }
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .bg-color {
-    background: green;
-    width: 70%;
-  }
-  }
 
 nav {
   float: right;
